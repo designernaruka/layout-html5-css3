@@ -1,0 +1,118 @@
+* {
+  font-family: arial;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* common css */
+  .main-wrap {
+    margin: 0 auto;
+    width: 850px;
+  }
+  .header, .footer {
+    font-size: 36px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+  }
+  .clear {
+    clear: both;
+  }
+/* common css end */
+/* header */
+  .header {
+    background-color: #b4b4b4;
+    color: #000000;
+  }
+/* header end */
+
+/* navigation */
+  .main-nav {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background: -moz-linear-gradient(top,  rgb(46,94,137) 0%, rgb(80,152,218) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(46,94,137)), color-stop(100%,rgb(80,152,218)));
+    background: linear-gradient(to bottom,  rgb(46,94,137) 0%,rgb(80,152,218) 100%);
+    background: rgb(46,94,137);
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 20px 0;
+  }
+  .nav-link {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+  }
+  .main-nav a:first-child {
+    margin-left: 20px;
+  }
+  .nav-link + .nav-link:before{
+    background: #fff;
+    content: " ";
+    display: inline-block;
+    height: 14px;
+    margin: 0px 10px 0 8px;
+    vertical-align: middle;
+    width: 1px;
+  }
+  .main-nav a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+/* navigation end */
+
+/* main-content */
+  .main-content {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:solid 1px #b4b4b4;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    moz-border-radius: 10px;
+    padding: 20px;
+    width: 850px;
+  }
+  .left-colum {
+    float: left;
+    width: 400px;
+  }
+  .right-colum {
+    float: right;
+    width: 340px;
+  }
+  .colum-heading {
+    color: #000;
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .custome-box {
+    border-image: url(../images/border-img-new.png) 20 stretch;
+    border-width: 20px 10px 20px 20px; 
+    box-sizing: border-box;
+    color: #3f3d3f;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px;
+    text-align: justify;
+  }
+  .text-content {
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    width: 270px;
+  }
+  .text-content + .text-content{
+    padding-left: 20px;
+  }
+/* main-content end */
+
+/* footer */
+  .footer {
+    background-color: #000;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+/* footer end */
